@@ -1,0 +1,10 @@
+{
+  "manifest_version": 3,
+  "name": "AI Phishing Detector",
+  "version": "2.0",
+  "description": "Real-time AI phishing detection",
+  "permissions": ["activeTab", "scripting"],
+  "host_permissions": ["http://127.0.0.1:8000/*"],
+  "background": { "service_worker": "background.js" },
+  "action": { "default_popup": "popup.html" }
+}

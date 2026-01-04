@@ -3,5 +3,24 @@ __pycache__/
 *.env 
 venv/ 
 .idea/ 
-node_modules/ 
-.DS_Store 
+
+
+# Python
+
+*.pyc
+
+
+# Node
+node_modules/
+npm-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# ML artifacts
+*.joblib
+*.h5
+
+# VS Code
+.vscode/

@@ -22,3 +22,25 @@ uvicorn main:app --reload
 cd frontend
 npm install
 npm start
+```
+2. Frontend
+```bash
+cd frontend
+npm install
+npm start
+```
+## Chrome Extension
+```bash
+Open chrome://extensions
+
+Enable Developer mode
+
+Click Load unpacked
+
+Select chrome-extension/
+```
+## ⚠️ Known Limitations
+
+Legitimate brand websites may occasionally be flagged as suspicious
+This is expected behavior in ML-based security systems
+Future improvements include brand whitelisting and reputation scoring
